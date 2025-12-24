@@ -1,11 +1,11 @@
 {
   "student": {
-    "name": "Your Name",
-    "email": "your.email@example.com",
+    "name": "Ananya",
+    "email": "ananyar0912@gmail.com",
     "bio": "Google Summer of Code Contributor",
-    "avatar": "assets/images/sample-avatar.svg",
-    "github": "https://github.com/YOUR-USERNAME",
-    "blog": "https://yourblog.dev",
-    "linkedin": "https://linkedin.com/in/YOUR-PROFILE"
+    "avatar": "assets/images/ananya-avatar.png",
+    "github": "https://github.com/ananya-09",
+    "blog": "https://ananyagsocjourney.blogspot.com",
+    "linkedin": "https://linkedin.com/in/ananya-mmmut"
   }
 }
