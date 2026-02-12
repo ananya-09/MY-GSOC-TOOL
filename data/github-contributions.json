@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "commits": 12,
+    "pullRequests": 5,
+    "issues": 3,
+    "reviews": 8
+  },
+  "contributions": [
+    {
+      "title": "Implemented Feature X",
+      "description": "Pull Request #42 in organization/project",
+      "date": "2024-05-20T10:00:00Z",
+      "url": "https://github.com/example/project/pull/42"
+    },
+    {
+      "title": "Fixed Bug Y",
+      "description": "Pull Request #41 in organization/project",
+      "date": "2024-05-18T14:30:00Z",
+      "url": "https://github.com/example/project/pull/41"
+    }
+  ],
+  "lastUpdated": "2024-05-20T12:00:00.000Z"
+}
