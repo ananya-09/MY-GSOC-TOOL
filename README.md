@@ -288,24 +288,9 @@ If you encounter issues or have questions:
 
 The following users have forked this project:
 
-- [Pritz395/MY-GSOC-TOOL](https://github.com/Pritz395/MY-GSOC-TOOL) - ⭐ 1 stars
-- [mdkaifansari04/MY-GSOC-TOOL](https://github.com/mdkaifansari04/MY-GSOC-TOOL) - ⭐ 0 stars
-- [ananya-09/MY-GSOC-TOOL](https://github.com/ananya-09/MY-GSOC-TOOL) - ⭐ 0 stars
-- [arnavkirti/MY-GSOC-TOOL](https://github.com/arnavkirti/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Krishiv-Mahajan/MY-GSOC-TOOL](https://github.com/Krishiv-Mahajan/MY-GSOC-TOOL) - ⭐ 0 stars
-- [sidd190/MY-GSOC-TOOL](https://github.com/sidd190/MY-GSOC-TOOL) - ⭐ 0 stars
-- [DishaA06/MY-GSOC-TOOL](https://github.com/DishaA06/MY-GSOC-TOOL) - ⭐ 0 stars
-- [e-esakman/MY-GSOC-TOOL](https://github.com/e-esakman/MY-GSOC-TOOL) - ⭐ 0 stars
-- [BUDEGlobalEnterprise/MY-GSOC-TOOL](https://github.com/BUDEGlobalEnterprise/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Sumit6307/MY-GSOC-TOOL](https://github.com/Sumit6307/MY-GSOC-TOOL) - ⭐ 0 stars
-- [abdallahrali/MY-GSOC-TOOL](https://github.com/abdallahrali/MY-GSOC-TOOL) - ⭐ 0 stars
-- [karunarapolu/MY-GSOC-TOOL](https://github.com/karunarapolu/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Nachiket-Roy/MY-GSOC-TOOL](https://github.com/Nachiket-Roy/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Manahil-Afzal/MY-GSOC-TOOL](https://github.com/Manahil-Afzal/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Kunal241207/MY-GSOC-TOOL](https://github.com/Kunal241207/MY-GSOC-TOOL) - ⭐ 0 stars
-- [Rudra-rps/MY-GSOC-TOOL](https://github.com/Rudra-rps/MY-GSOC-TOOL) - ⭐ 0 stars
+No forks yet. Be the first to fork this project!
 
-_Last updated: 2026-02-27 00:28:36 UTC_
+_Last updated: 2026-02-27 02:30:44 UTC_
 <!-- FORKS_END -->
 
 ---
