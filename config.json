@@ -1,29 +1,38 @@
 {
   "student": {
-    "name": "Your Name",
+    "name": "Ananya",
     "bio": "Google Summer of Code Contributor",
-    "avatar": "https://github.com/yourusername.png",
-    "github": "https://github.com/yourusername",
-    "email": "your.email@example.com",
-    "blog": "https://yourblog.dev",
-    "linkedin": "https://linkedin.com/in/yourprofile"
+    "avatar": "https://github.com/ananya-09.png",
+    "github": "https://github.com/ananya-09",
+    "email": "ananyar0912@gmail.com",
+    "blog": "https://dev.to/ananya-09",
+    "linkedin": "https://linkedin.com/in/ananya-mmmut"
   },
   "project": {
     "title": "Your GSoC Project Title",
-    "description": "A brief description of your GSoC project and what you're working on. Explain the problem you're solving and the impact of your work.",
-    "organization": "Your Organization",
-    "timeline": "May 2024 - August 2024",
-    "repositories": [
-      "https://github.com/YourOrg/Repository-1",
-      "https://github.com/YourOrg/Repository-2"
-    ]
+    "description": "Brief description of your project",
+    "organization": "Your Organization Name",
+    "timeline": "May 2026 - August 2026",
+    "repository": "https://github.com/OWASP-BLT/BLT"
   },
   "slack": {
-    "workspaceUrl": "https://your-org.slack.com/join/shared_invite/xxx",
-    "channels": [
-      "general",
-      "gsoc-2024",
-      "your-project-channel"
-    ]
-  }
+    "workspaceUrl": "https://join.slack.com/t/owasp/shared_invite/zt-3r8n76i44-5sxdUp8UixsCs1Rm7KHRaw",
+    "channels": ["general", "gsoc-2026", "your-project-channel"]
+  },
+  "mentors": [
+    {
+      "name": "Mentor Name",
+      "email": "mentor@example.com",
+      "avatar": "https://github.com/MENTOR-USERNAME.png",
+      "role": "Lead Mentor",
+      "github": "https://github.com/MENTOR-USERNAME"
+    },
+    {
+      "name": "Co-Mentor Name",
+      "email": "co-mentor@example.com",
+      "avatar": "https://github.com/CO-MENTOR-USERNAME.png",
+      "role": "Co-Mentor",
+      "github": "https://github.com/CO-MENTOR-USERNAME"
+    }
+  ]
 }
