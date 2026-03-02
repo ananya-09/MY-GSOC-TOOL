@@ -1,11 +1,10 @@
 {
   "mentors": [
     {
-      "name": "Mentor Name",
+      "name": "DonnieBLT",
       "role": "Lead Mentor",
-      "email": "mentor@example.com",
-      "github": "https://github.com/mentor",
-      "avatar": "https://github.com/mentor.png"
+      "github": "https://github.com/DonnieBLT",
+      "avatar": "https://github.com/DonnieBLT.png"
     },
     {
       "name": "Co-Mentor Name",
@@ -24,19 +23,19 @@
   ],
   "interactions": [
     {
-      "from": "Mentor Name",
+      "from": "DonnieBLT",
       "content": "Great work on the initial setup! Your code is clean and well-documented. Keep up the good work.",
-      "date": "2024-05-25"
+      "date": "2026-03-01"
     },
     {
-      "from": "Mentor Name",
+      "from": "Co-Mentor",
       "content": "Your pull request shows good understanding of the codebase. I've left some comments for improvement. Overall, excellent progress!",
-      "date": "2024-06-05"
+      "date": "2026-03-01"
     },
     {
-      "from": "Mentor Name",
+      "from": "Another Mentor",
       "content": "Impressed with how you handled the code review feedback. Your iterative approach to development is commendable.",
-      "date": "2024-06-20"
+      "date": "2026-03-01"
     }
   ]
 }
