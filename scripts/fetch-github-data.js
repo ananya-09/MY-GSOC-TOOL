@@ -148,10 +148,15 @@ async function fetchData() {
         let totalStats = { commits: 0, pullRequests: 0, issues: 0, reviews: 0 };
         let allContributions = [];
 
-        // Process all repositories in parallel
-        const promises = repositories.map(async (repoUrl) => {
+        // Helper function to add delay between requests
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Process repositories sequentially to avoid rate limits
+        for (const repoUrl of repositories) {
             const repoDetails = getRepoDetails(repoUrl);
-            if (!repoDetails) return;
+            if (!repoDetails) continue;
 
             const { owner, repo } = repoDetails;
             console.log(`Fetching data for ${owner}/${repo}...`);
@@ -218,9 +223,10 @@ async function fetchData() {
             } catch (error) {
                 console.error(`Error processing ${owner}/${repo}:`, error.message);
             }
-        });
 
-        await Promise.all(promises);
+            // Add a 500ms delay between repositories to avoid rate limit spikes
+            await delay(500);
+        }
 
         // Sort contributions by date desc and limit
         allContributions.sort((a, b) => b.timestamp - a.timestamp);
