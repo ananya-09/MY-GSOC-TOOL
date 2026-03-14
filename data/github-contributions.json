@@ -1,10 +1,113 @@
 {
   "stats": {
-    "commits": 0,
-    "pullRequests": 0,
-    "issues": 0,
-    "reviews": 0
+    "commits": 39,
+    "pullRequests": 18,
+    "issues": 11,
+    "reviews": 3
   },
-  "contributions": [],
-  "lastUpdated": "2026-02-19T00:35:46.717Z"
+  "contributions": [
+    {
+      "title": "feat: adding a pointed recent submissions page to show-all-entries by view entries navigation",
+      "description": "Pull Request #89 in OWASP-BLT/BLT-Design-Contest",
+      "date": "2026-03-10T08:41:02Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Design-Contest/pull/89"
+    },
+    {
+      "title": "Added recent submissions section",
+      "description": "Pull Request #87 in OWASP-BLT/BLT-Design-Contest",
+      "date": "2026-03-06T18:13:49Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Design-Contest/pull/87"
+    },
+    {
+      "title": "Fix/card margin fix",
+      "description": "Pull Request #35 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-03-05T15:47:55Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/35"
+    },
+    {
+      "title": "added a auto sort",
+      "description": "Pull Request #34 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-03-05T15:36:33Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/34"
+    },
+    {
+      "title": "Fix Report Bug links to open safely in a new tab",
+      "description": "Pull Request #59 in OWASP-BLT/BLT-Pages",
+      "date": "2026-03-03T20:32:36Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Pages/pull/59"
+    },
+    {
+      "title": "Enhanced Milestone Status UI with Three-State Color System",
+      "description": "Pull Request #19 in OWASP-BLT/MY-GSOC-TOOL",
+      "date": "2026-03-03T15:35:51Z",
+      "url": "https://github.com/OWASP-BLT/MY-GSOC-TOOL/pull/19"
+    },
+    {
+      "title": "Minor fixes in the dark theme",
+      "description": "Pull Request #22 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-03-02T21:15:56Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/22"
+    },
+    {
+      "title": "Adding ananya-gsoc-2026-card",
+      "description": "Pull Request #20 in OWASP-BLT/BLT-GSOC",
+      "date": "2026-03-02T10:52:30Z",
+      "url": "https://github.com/OWASP-BLT/BLT-GSOC/pull/20"
+    },
+    {
+      "title": "Updating .gitignore",
+      "description": "Pull Request #58 in OWASP-BLT/owasp-blt.github.io",
+      "date": "2026-03-02T10:31:26Z",
+      "url": "https://github.com/OWASP-BLT/owasp-blt.github.io/pull/58"
+    },
+    {
+      "title": "Add complete README",
+      "description": "Pull Request #47 in OWASP-BLT/owasp-blt.github.io",
+      "date": "2026-03-01T18:05:06Z",
+      "url": "https://github.com/OWASP-BLT/owasp-blt.github.io/pull/47"
+    },
+    {
+      "title": "Improve branding assets: add favicon and replace navbar text logo with SVG logo",
+      "description": "Pull Request #39 in OWASP-BLT/owasp-blt.github.io",
+      "date": "2026-02-28T19:34:35Z",
+      "url": "https://github.com/OWASP-BLT/owasp-blt.github.io/pull/39"
+    },
+    {
+      "title": "Added label search bar sorting",
+      "description": "Pull Request #38 in OWASP-BLT/owasp-blt.github.io",
+      "date": "2026-02-28T13:23:46Z",
+      "url": "https://github.com/OWASP-BLT/owasp-blt.github.io/pull/38"
+    },
+    {
+      "title": "Fix/css migration",
+      "description": "Pull Request #18 in OWASP-BLT/owasp-blt.github.io",
+      "date": "2026-02-26T08:56:02Z",
+      "url": "https://github.com/OWASP-BLT/owasp-blt.github.io/pull/18"
+    },
+    {
+      "title": "Project-K detailed goals and timeline updation",
+      "description": "Pull Request #24 in OWASP-BLT/BLT-Ideas",
+      "date": "2026-02-02T18:12:40Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/24"
+    },
+    {
+      "title": "Add Project-K",
+      "description": "Pull Request #17 in OWASP-BLT/BLT-Ideas",
+      "date": "2026-02-02T04:48:57Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Ideas/pull/17"
+    },
+    {
+      "title": "Fixed the z-index position of the chatbot icon and panel",
+      "description": "Pull Request #13 in OWASP-BLT/BLT-on-Cloudflare",
+      "date": "2025-12-29T18:22:49Z",
+      "url": "https://github.com/OWASP-BLT/BLT-on-Cloudflare/pull/13"
+    },
+    {
+      "title": "Fixed the font for the home page",
+      "description": "Pull Request #11 in OWASP-BLT/BLT-on-Cloudflare",
+      "date": "2025-12-27T17:34:26Z",
+      "url": "https://github.com/OWASP-BLT/BLT-on-Cloudflare/pull/11"
+    }
+  ],
+  "lastUpdated": "2026-03-14T12:56:09.738Z"
 }
