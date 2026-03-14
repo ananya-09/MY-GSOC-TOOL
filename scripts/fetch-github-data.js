@@ -58,6 +58,11 @@ function getRepoDetails(url) {
     return null;
 }
 
+// Helper function to add delay between requests
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Function to make GitHub API request
 function makeRequest(path) {
     return new Promise((resolve, reject) => {
@@ -148,10 +153,10 @@ async function fetchData() {
         let totalStats = { commits: 0, pullRequests: 0, issues: 0, reviews: 0 };
         let allContributions = [];
 
-        // Process all repositories in parallel
-        const promises = repositories.map(async (repoUrl) => {
+        // Process repositories sequentially with delays to avoid rate limiting
+        for (const repoUrl of repositories) {
             const repoDetails = getRepoDetails(repoUrl);
-            if (!repoDetails) return;
+            if (!repoDetails) continue;
 
             const { owner, repo } = repoDetails;
             console.log(`Fetching data for ${owner}/${repo}...`);
@@ -161,16 +166,25 @@ async function fetchData() {
                 const prQuery = `repo:${owner}/${repo} is:pr is:merged author:${username} created:>${dateStr}`;
                 const prRes = await makeRequest(`/search/issues?q=${encodeURIComponent(prQuery)}`);
                 const prCount = prRes.data?.total_count || 0;
+                
+                // Add delay between requests to avoid rate limiting
+                await delay(500);
 
                 // Fetch Issues
                 const issueQuery = `repo:${owner}/${repo} is:issue author:${username} created:>${dateStr}`;
                 const issueRes = await makeRequest(`/search/issues?q=${encodeURIComponent(issueQuery)}`);
                 const issueCount = issueRes.data?.total_count || 0;
+                
+                // Add delay between requests
+                await delay(500);
 
                 // Fetch Reviews (Exclude own PRs)
                 const reviewQuery = `repo:${owner}/${repo} is:pr reviewed-by:${username} -author:${username} created:>${dateStr}`;
                 const reviewRes = await makeRequest(`/search/issues?q=${encodeURIComponent(reviewQuery)}`);
                 const reviewCount = reviewRes.data?.total_count || 0;
+                
+                // Add delay between requests
+                await delay(500);
 
                 // Fetch Commits - Use Link Header Strategy for Total Count
                 let commitCount = 0;
@@ -218,9 +232,10 @@ async function fetchData() {
             } catch (error) {
                 console.error(`Error processing ${owner}/${repo}:`, error.message);
             }
-        });
-
-        await Promise.all(promises);
+            
+            // Add delay between repository processing
+            await delay(1000);
+        }
 
         // Sort contributions by date desc and limit
         allContributions.sort((a, b) => b.timestamp - a.timestamp);

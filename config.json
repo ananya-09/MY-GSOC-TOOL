@@ -17,19 +17,17 @@
       "https://github.com/OWASP-BLT/BLT",
       "https://github.com/OWASP-BLT/BLT-Ideas",
       "https://github.com/OWASP-BLT/MY-GSOC-TOOL",
-      "https://github.com/OWASP-BLT/BLT-Next",
       "https://github.com/OWASP-BLT/BLT-on-Cloudflare",
-      "https://github.com/OWASP-BLT/BLT-University",
-      "https://github.com/OWASP-BLT/.github",
       "https://github.com/OWASP-BLT/BLT-GSOC",
       "https://github.com/OWASP-BLT/owasp-blt.github.io",
-      "https://github.com/OWASP-BLT/BLT-API",
       "https://github.com/OWASP-BLT/BLT-Design",
       "https://github.com/OWASP-BLT/BLT-Newsletter",
-      "https://github.com/OWASP-BLT/BLT-SafeCloak",
       "https://github.com/OWASP-BLT/BLT-Design-Contest",
-      "https://github.com/OWASP-BLT/BLT-GitHub-App",
-      "https://github.com/OWASP-BLT/BLT-Pages"
+      "https://github.com/OWASP-BLT/BLT-Pages",
+      "https://github.com/OWASP-BLT/BLT-Next",
+      "https://github.com/OWASP-BLT/BLT-University",
+      "https://github.com/OWASP-BLT/.github",
+      "https://github.com/OWASP-BLT/BLT-API"
     ]
   },
   "slack": {
